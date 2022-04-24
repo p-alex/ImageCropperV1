@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Cropper</title>
+  </head>
+  <body>
+    <div class="cropper" id="cropper">
+      <div class="cropper__container">
+        <img class="cropper__image" src="images/image.jpg" id="image" />
+        <div class="cropper__cropArea" id="cropArea" />
+      </div>
+    </div>
+    <br />
+    <button id="cropBtn">Crop</button>
+    <button id="aspectRatioBtn">4 / 5</button>
+    <button id="aspectRatioBtn">16 / 9</button>
+    <button id="aspectRatioBtn">1 / 1</button>
+    <script src="app.js" type="module" defer></script>
+  </body>
+</html>
